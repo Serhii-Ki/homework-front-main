@@ -3,6 +3,8 @@ import { v1 } from 'uuid'
 import s2 from '../../s1-main/App.module.css'
 import GreetingContainer from './GreetingContainer'
 
+import s from './Greeting.module.css';
+
 /*
 * 1 - описать тип UserType
 * 2 - указать нужный тип в useState с users
@@ -35,11 +37,11 @@ const HW3 = () => {
     const [users, setUsers] = useState<UserType[]>([]) // need to fix any
 
     const addUserCallback = (name: string) => { // need to fix any
-        pureAddUserCallback(name, setUsers, users)
+        pureAddUserCallback(name, setUsers, users);
     }
 
     return (
-        <div id={'hw3'}>
+        <div id={'hw3'} className={s['main-wrap']}>
             <div className={s2.hwTitle}>Homework #3</div>
             {/*для автоматической проверки дз (не менять)*/}
 
