@@ -1,22 +1,48 @@
+.hw8 {
+  margin-top: 50px;
+}
+
 .item {
+  padding: 10px;
+  border-bottom: 1px solid rgba(229, 229, 229, 1);
 }
 
 .item:last-of-type {
+
 }
 
 .users {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 600;
+  & thead tr td {
+    font-weight: 600;
+  }
 }
 
 .buttonsContainer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 15px;
+  margin-bottom: 20px;
 }
 
 .container {
+  margin-top: 30px;
+  width: 50%;
 }
 
 .thead {
+  background-color: rgba(229, 229, 229, 1);
+  padding: 5px 10px;
+
 }
 
 .nameCol {
+  font-weight: 300;
+  padding: 5px 10px;
 }
 
 .ageCol {
