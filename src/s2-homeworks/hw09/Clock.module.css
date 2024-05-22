@@ -1,7 +1,15 @@
+.hw9 {
+  margin-top: 50px;
+}
+
 .buttonsContainer {
+  margin-top: 15px;
 }
 
 .clock {
+  margin-top: 30px;
+  font-size: 18px;
+  padding-bottom: 30px;
 }
 
 .watch {
@@ -11,4 +19,5 @@
 }
 
 .more {
+  margin-top: 7px;
 }
